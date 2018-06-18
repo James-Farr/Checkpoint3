@@ -1,0 +1,77 @@
+canvas {
+  border: 1px solid gray;
+  width: 800px;
+  height: 800px;
+  background-color: orange;
+}
+body{
+  margin: 0;
+  display: flex;
+  overflow: hidden;
+}
+.mainBitcoin {
+  width: 30vmin;
+  height: 30vmin;
+  background-color: #e9a252;
+  background-image: url(../images/bitcoin.png);
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  position: relative;
+  border: 1vmin solid black;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+ul {list-style-type: none;}
+li {list-style-type: none;}
+p {
+  text-align: center;
+  margin: 10px;
+  font-size: 2vmin;
+}
+.pointer {width: 10vmin;}
+.wrap {
+  width: 50vw;
+  height: 100vh;
+  padding: 0;
+}
+img {height: 15vh;}
+h1 {margin: 0;}
+li {
+  display: flex;
+  height: 15vh;
+  padding: 2.5vh;
+  border: 1px solid black;
+  margin: 0;
+}
+button {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vmin;
+    background-color: transparent;
+    border-radius: 2px;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+
+.wrap {
+  height: 60vh;
+  width: 100vmin;
+  }
+.main {
+  height: 40vh;
+  border: none;
+  }
+p {
+  font-size: 2em;
+  }
+.shop p {
+  font-size: 1em;
+  }
+.shop button {
+  font-size: 2em;
+  }
